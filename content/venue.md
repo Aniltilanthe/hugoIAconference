@@ -2,6 +2,7 @@
 title: Venue
 description: Venue
 type: page
+weight: 6
 menu:
   main: {}
 ---

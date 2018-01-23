@@ -1,6 +1,7 @@
 ---
 title: Submissions
 type: page
+weight: 4
 menu:
   main: {}
 ---

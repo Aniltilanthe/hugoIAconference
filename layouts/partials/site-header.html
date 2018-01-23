@@ -2,10 +2,29 @@
 <!-- sidebar start -->
 <aside>
     <div id="sidebar" class="nav-collapse">
-        <!-- sidebar menu start-->
+        <header>
+<div id="logo">
+<a href="/" title="UX Day Graz 2017"><img src="/logos/uxd2017-logo.svg"
+alt="UX Day Graz 2017 Logo" class="logo"/></a>
+</div>
+<div id="title">
+<h1>UX Day Graz 2017</h1>
+<div id="tagline">
+UX Day Graz 2017 is a community event for practitioners of user experience, interaction design, and usability in and around Graz, Austria.
+</div>
+</div>
+<div id="uxg-logo">
+<a href="https://uxgraz.isds.tugraz.at/" title="UX Graz Community">
+<img src="/logos/uxg-logo.svg" alt="UX Graz Logo" class="logo"/></a>
+</div>
+</header>
+		
+		<nav id="sitenav">
+		<div class="menu">
+		<!-- sidebar menu start-->
         <ul class="sidebar-menu">
           {{ $currentPage := . }}
-          {{ range .Site.Menus.main }}
+          {{ range .Site.Menus.main.ByWeight }}
               {{ if .HasChildren }}
 
             <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
@@ -16,12 +35,12 @@
             </a>
             <ul class="sub">
                 {{ range .Children }}
-                <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+                <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL }}index.html"> {{ .Name }} </a> </li>
                 {{ end }}
             </ul>
           {{else}}
             <li>
-            <a href="{{.URL}}">
+            <a href="{{.URL }}index.html">
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
             </a>
@@ -30,6 +49,8 @@
           {{end}}
         </ul>
         <!-- sidebar menu end-->
+		</div>
+		</nav>
     </div>
 </aside>
 <!--sidebar end-->

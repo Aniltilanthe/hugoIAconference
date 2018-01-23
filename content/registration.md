@@ -1,7 +1,11 @@
 ---
-title: registration
+title: Registration
 description: registration
+weight: 5
 type: page
+
+menu:
+  main: {}
 
 ---
 

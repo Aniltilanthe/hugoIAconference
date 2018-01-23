@@ -672,3 +672,72 @@ ul.sidebar-menu {
 .active {
     background-color: #4CAF50;
 }
+
+ul.article-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;	
+}
+.article-list li {
+    float: left;
+	margin: 0;
+}
+
+.article-list li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+.contact-info  a {
+    display: inline !important;
+}
+
+.speaker {
+    max-width: 20.13rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    flex-basis: 12rem;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 0 1rem 1rem 0;
+}
+
+div.menu {
+    margin: 0 auto 1rem auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+}
+div.menu ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background-color: #efefef;
+    box-shadow: 0 0 0.4rem rgba(0,0,0,0.15);
+    border-radius: 0.5rem;
+    list-style: none;
+}
+
+@media only all and (min-width: 60rem)
+uxd.css:564
+div#mysite {
+    max-width: 70rem;
+}
+
+uxd.css:3
+div#mysite {
+    margin: 0 auto;
+    padding: 0;
+    border-style: none;
+    /* background-color: MistyRose; */
+}

@@ -7,7 +7,7 @@
       {{ .Site.Title }}
 	{{ end }}</title>
 	
-	   <link href='{{ "css/main.css" | absURL }}' rel='stylesheet' type="text/css" />
+	   <link href='{{ "css/main.css" | relURL }}' rel='stylesheet' type="text/css" />
 
 		
 	{{ block "favicon" . }}
@@ -16,6 +16,7 @@
 
   </head>
   <body>
+	<div id="mysite">
     <!-- Code that all your templates share, like a header -->
 	
     {{ block "header" . }}
@@ -33,5 +34,7 @@
     {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
+	
+	</div>
   </body>
 </html>

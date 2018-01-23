@@ -2,6 +2,7 @@
 title: Impressum
 description: Impressum
 type: page
+weight: 9
 menu:
   main: {}
 ---

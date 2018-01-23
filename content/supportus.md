@@ -2,6 +2,7 @@
 title: Support us
 description: We'd love to hear from you
 type: page
+weight: 7
 menu:
   main: {}
 ---

@@ -2,6 +2,7 @@
 title: Program
 description: Conference program schedule
 type: page
+weight: 2
 menu:
   main: {}
 

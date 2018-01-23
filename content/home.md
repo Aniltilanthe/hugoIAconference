@@ -2,11 +2,25 @@
 title: Home
 description: Home page
 type: page
+weight: 1
 menu:
   main: {}
-featured_image:
-
 ---
+
+
+<div id="container"> <!-- around both info and supporters blocks -->
+
+
+<div id="info">
+
+<h1 class="page-heading">UX Day Graz 2017</h1>
+
+<!--
+<p class="important">
+Tell us what you do! Submit a 5-minute
+<a href="/submissions/">Showcase Presentation</a>.
+</p>
+-->
 
 <p>
 UX Day Graz 2017 is a community event for practitioners of user
@@ -39,7 +53,7 @@ registration. For users of twitter, we suggest using the hashtag
 
 <p class="important">
 Note: Slides and videos will be linked from the
-<a href="program/index.html">Program</a> page!
+<a href="{{rootPath}}program/index.html">Program</a> page!
 </p>
 
 
@@ -229,7 +243,3 @@ alt="ION Logo" class="silver-supp-logo"/></a>
 </div> <!-- supporters -->
 
 </div> <!-- container -->
-
-      
-</div> <!-- main -->
-

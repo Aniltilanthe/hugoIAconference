@@ -2,6 +2,7 @@
 title: Team
 description: Team
 type: page
+weight: 8
 menu:
   main: {}
 ---
